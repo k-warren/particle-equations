@@ -1,12 +1,19 @@
 particles = [
     ["particle", "charge", "baryon number", "lepton electron number", "lepton muon number", "strangeness"],
     ["proton", 1, 1, 0, 0, 0],
+    ["anti-proton", -1, -1, 0, 0, 0],
     ["neutron", 0, 1, 0, 0, 0],
-    ["pion", 1, 0, 0, 0, 0],
-    ["kaon", 1, 0, 0, 0, 0],
+    ["anti-neutron", 0, -1, 0, 0, 0],
     ["electron", -1, 0, 1, 0, 0],
+    ["positron", 1, 0, -1, 0, 0],
+    ["pion", 1, 0, 0, 0, 0],
+    ["anti-pion", -1, 0, 0, 0, 0],
+    ["kaon", 1, 0, 0, 0, 0],
+    ["anti-kaon", -1, 0, 0, 0, 0],
     ["muon", -1, 0, 0, 1, 0],
+    ["anti-muon", 1, 0, 0, -1, 0],
     ["neutrino", 0, 0, 1, 0, 0],
+    ["anti-neutrino", 0, 0, -1, 0, 0],
 ]
 while True:
     equation = input("Please enter the equation using words:")
